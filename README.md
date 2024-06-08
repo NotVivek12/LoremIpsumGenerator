@@ -1,4 +1,4 @@
-# LoremIpsumGenerator
+# Lorem Ipsum Generator
 
 Welcome to the Lorem Ipsum Generator repository! This simple yet versatile tool allows users to effortlessly generate Lorem Ipsum text according to their specifications. Lorem Ipsum, often used as a placeholder text in design and publishing, now comes at your fingertips with customizability.
 
