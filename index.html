@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Lorem Ipsum Generator</title>
+</head>
+<body>
+    <header>
+        <h1>Lorem Ipsum Generator</h1>
+    </header>
+    <div class="main">
+        <div class="options">
+            <div class="paragraphs">
+                <p>
+                    Paragraphs:
+                </p>
+                <input type="range" id="paragraph" min="1" max="50" value="1">
+                <span id="paragraphValue">1</span>
+            </div>
+            <div class="wpp">
+                <p>
+                    Words Per Paragraph:
+                </p>
+                <input type="range" id="wpp" min="1" max="100" value="10">
+                <span id="wordsValue">10</span>
+            </div>
+            <div class="btn">
+                <button id="generateButton">GENERATE NOW!</button>
+            </div>
+        </div>
+    </div>
+    <div class="output">
+
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
